@@ -8,6 +8,6 @@
         @vite('resources/css/app.css')
     </head>
     <body>
-        <div class="text-3xl font-bold underline">This should be a big text. (tailwind-test)</div>
+        {{ $slot }}
     </body>
 </html>
